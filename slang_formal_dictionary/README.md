@@ -9,5 +9,7 @@ How to load:
 ```python
 import pandas as pd
 
-df = pd.read_csv('dataset.csv')
+url = "https://raw.githubusercontent.com/RifqiAnshariR/useful-datasets/refs/heads/master/slang_formal_dictionary/slang_formal_dictionary.csv"
+
+df = pd.read_csv(url)
 print(df.head())
